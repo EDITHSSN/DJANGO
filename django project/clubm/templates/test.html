@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Profile</title>
+</head>
+<body>
+    {% for st in student %}
+                                <tr class="">
+                                    <td class="p-2">{{st.email}}</td>
+                                    <td class="p-2">{{st.password}}</td>
+                                </tr>
+                                {% endfor %}
+    {{ema}} {{passw}}
+</body>

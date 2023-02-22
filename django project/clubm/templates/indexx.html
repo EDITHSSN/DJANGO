@@ -1,0 +1,94 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://deepakkumark852.github.io/css/index.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("UlQ7EBKftQ62epVFo");
+    })();
+
+  </script>
+  <style>
+    label {
+      font-size: 1.3rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    button {
+      text-decoration: none;
+      width: 10rem;
+      color: rgba(255, 255, 255, 0.8);
+      background: rgb(0, 149, 255);
+      padding: 7px 10px;
+      border-radius: 10px;
+      font-weight: 1rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+      border: transparent;
+    }
+
+    input {
+      width: 25rem;
+      text-align: center;
+    }
+
+    button:hover {
+      color: rgba(255, 255, 255, 1);
+      box-shadow: 0 5px 15px rgba(7, 243, 223, 0.834);
+    }
+  </style>
+  <title>OTP verification </title>
+</head>
+
+<body background="https://raw.githubusercontent.com/EDITHSSN/login/main/vlcsnap-2019-09-14-21h55m18s363-2.jpg">
+
+  {% if message %}
+  <script>alert("{{ message }}")</script>
+  {% endif %}
+  <div class="row justify-content-center">
+    <div class="card mt-5"
+      style="width: 25rem; height: 35rem;background-color: rgb(255, 255, 255);border-radius: 2rem;margin-left: 25rem;padding-left:1rem;margin-top: 4rem;padding-right:1rem">
+      <div class="card-body">
+        <h6 class="card-subtitle mb-2 text-muted"
+          style="padding-top: 4rem;padding-left:4rem;font-size: 2.5em;color: rgba(62, 59, 59, 0.813);">Forgot Password
+        </h6>
+
+        <!-- OTP side -->
+        <div style="text-align:center;">
+          <form action="" method="POST">
+            {% csrf_token %}
+            <label for="to">Enter SSN mail id</label><br>
+            <input type="text" name="email" id="to"><br><br>
+            <button onclick="send()" type="submit">Send OTP</button><br><br><br>
+          </form>
+          <label for="code">Enter OTP Recieved from mail</label><br>
+          <input type="hidden" id="code" value=""><br><br>
+          <input type="text" id="write_otp"><br><br>
+          <button onclick="verify()">Submit</button>
+        </div>
+</body>
+<script>
+  function verify() {
+    console.log("hi");
+    var x = document.getElementById("code").value;
+    var y = document.getElementById("write_otp").value; email =
+      document.write(x, y);
+    if (x === y) {
+      alert("OTP verified");
+      window.location.href = "/guest/login/change_password?email={email}";
+    }
+    else {
+      alert("Wrong OTP, Resend OTP again and continue");
+    }
+  }
+</script>
+
+</html>
