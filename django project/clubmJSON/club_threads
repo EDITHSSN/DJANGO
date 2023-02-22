@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "639c9509afba75748e948e46"
+  },
+  "id": 1,
+  "comments_id": 4,
+  "thread": "design",
+  "date": {
+    "$date": {
+      "$numberLong": "1671148800000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "639c9a0e90715b606944e552"
+  },
+  "id": 5,
+  "comments_id": 7,
+  "thread": "film",
+  "date": {
+    "$date": {
+      "$numberLong": "1671148800000"
+    }
+  }
+}]

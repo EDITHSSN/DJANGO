@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "63937a742c04f993cc5a7c31"
+  },
+  "club_id": 1,
+  "club_name": "SMC",
+  "club_description": "Are you a passionate musician? SM C heard you! We are a group of singers, instrumentalists with avid passion in and for music. SMC puts up various musical events through out the year do follow up!",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c6c914d2736806f11fb34"
+  },
+  "club_id": 2,
+  "club_name": "N2K",
+  "club_description": "Dance your soul away, they say. We are a group of individuals bestowed upon dance . We are very active on social media, uploading various choreography - in western style",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c6d164d2736806f11fb35"
+  },
+  "club_id": 3,
+  "club_name": "SDC",
+  "club_description": "Aesthetics matter everywhere isn’t it? So here we are a bunch of designers who try our best level of creativity to bring appealing look on products . We design the cover page , template of magazines and posters for marketing events",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c6d564d2736806f11fb36"
+  },
+  "club_id": 4,
+  "club_name": "SAARAL",
+  "club_description": "Vanakkam🙏Tamizh is one of the oldest and most traditional languages. This club addresses the necessity to observe and commemorate Tamil culture. Being one of the most active clubs, we have shows throughout the year that instigates young talent un every student",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c77614d2736806f11fb38"
+  },
+  "club_id": 5,
+  "club_name": "LAKSHYA",
+  "club_description": "Hey, young entrepreneurs . If your language is related to trading , investments , savings, profit, loss …. (_ Siri, play scam 92_) hey yll .\nDo turn up to our frequent events and let’s play ..",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c77a04d2736806f11fb39"
+  },
+  "club_id": 6,
+  "club_name": "SPC",
+  "club_description": "you can’t freeze a moment , but can capture it. Beauty lies in the eye of the beholder . If looking through a different lens , makes you happy, come join us. We hold contests frequently . So catch you there:)",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c77d84d2736806f11fb3a"
+  },
+  "club_id": 7,
+  "club_name": "SFC",
+  "club_description": "Do you love watching movies? Wanna ignite the director or actor or script writer in you? Worry not , we are here . We are a group of young artists with abundant love for art . Do catch us up at various dramas and other events.",
+  "club_head_id": "123",
+  "club_img": null
+},{
+  "_id": {
+    "$oid": "639c77fd4d2736806f11fb3b"
+  },
+  "club_id": 8,
+  "club_name": "Coding Club",
+  "club_description": "SSN Coding Club is a student-led organization that specializes in Competitive Coding, Web and App Development, Machine Learning, and Open Source. We organize various club events and workshops for students in the aforementioned domains through the club.\nSSN Coding Club is a student-led organization that specializes in Competitive Coding, Web and App Development, Machine Learning, and Open Source. We organize various club events and workshops for students in the aforementioned domains through the club.\n",
+  "club_head_id": "123",
+  "club_img": null
+}]

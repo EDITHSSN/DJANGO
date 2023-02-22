@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "637dddd5d649a547f2ffefb3"
+  },
+  "name": "debika",
+  "dept": "IT",
+  "email": "debika2010561@ssn.edu.in",
+  "password": "debika",
+  "year": "2\"",
+  "id": "2",
+  "postv": 3,
+  "clubsinterested": "NULL",
+  "student_id": 0
+},{
+  "_id": {
+    "$oid": "6382318f9cf3e342a4b686d5"
+  },
+  "id": 18,
+  "name": "user",
+  "dept": "IT",
+  "email": "username@asl.com",
+  "password": "pass",
+  "year": "2000",
+  "roll": null,
+  "postv": 2,
+  "clubsinterested": "SMC",
+  "student_id": 0
+},{
+  "_id": {
+    "$oid": "6394819cf26ff0dc0b1ca14f"
+  },
+  "id": 19,
+  "student_id": 0,
+  "name": "username",
+  "dept": "IT",
+  "email": "username@cc.com",
+  "password": "pass",
+  "year": "2022",
+  "roll": null,
+  "postv": 2,
+  "clubsinterested": "0"
+}]

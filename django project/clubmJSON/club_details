@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "637df09560f9bc9c4c04d8c1"
+  },
+  "club_det_id": {
+    "$oid": "637df03bd649a547f2ffefbb"
+  },
+  "student_id": "205002022",
+  "role": "core member",
+  "club_name": "coding club"
+}]

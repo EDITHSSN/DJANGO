@@ -1,0 +1,86 @@
+[{
+  "_id": {
+    "$oid": "6391b23a117331fe8958de15"
+  },
+  "id": 3,
+  "student_id": null,
+  "description_event": "talkshow",
+  "club_name": "",
+  "event_name": "etalkshow",
+  "volunteers": null,
+  "date": {
+    "$date": {
+      "$numberLong": "1546300800000"
+    }
+  },
+  "club_id": 1,
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6396d250b629c6948e52de0f"
+  },
+  "id": 6,
+  "student_id": null,
+  "club_id": 1,
+  "description_event": "A Hands On workshop on ML",
+  "club_name": "",
+  "event_name": "workshop on ML",
+  "volunteers": 5,
+  "date": {
+    "$date": {
+      "$numberLong": "1670544000000"
+    }
+  },
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6396d97a4a8722ce3f89e6dd"
+  },
+  "id": 7,
+  "student_id": 0,
+  "club_id": 1,
+  "description_event": "A workshop on Aritificial Intelligence",
+  "club_name": "SMC",
+  "event_name": "workshop on AI",
+  "volunteers": 5,
+  "date": {
+    "$date": {
+      "$numberLong": "1670371200000"
+    }
+  },
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6396da30eb93c8ea45e11d5d"
+  },
+  "id": 8,
+  "student_id": 0,
+  "club_id": 1,
+  "description_event": "A non Technical Event",
+  "club_name": "SMC",
+  "event_name": "edureka",
+  "volunteers": 5,
+  "date": {
+    "$date": {
+      "$numberLong": "1669939200000"
+    }
+  },
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6396daf6ee40bcb08251e21c"
+  },
+  "id": 9,
+  "student_id": 18,
+  "club_id": 1,
+  "description_event": "non tech",
+  "club_name": "SMC",
+  "event_name": "ring a ring ",
+  "volunteers": 5,
+  "date": {
+    "$date": {
+      "$numberLong": "1670371200000"
+    }
+  },
+  "status": 0
+}]
